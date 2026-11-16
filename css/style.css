@@ -38,7 +38,7 @@ img{
     max-width:100%;
     height:auto;
 }
-/*flexbox-organising elemts along an axis*/
+/*flexbox-organising elements along an axis*/
 nav  ul{
     display:flex;
     flex-wrap:wrap;
@@ -96,4 +96,10 @@ footer{grid-area:footer;}
     footer{
         border-top:3px solid #d8a22b;
     }
+}
+.message{
+    color:red;   
+}
+input.invalid{
+    border:2px solid red;
 }
